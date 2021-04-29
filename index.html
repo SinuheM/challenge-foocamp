@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge Foocamp</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="main-container">
+        <header class="header">
+            <a href="#" class="header__logo">
+                <img src="img/brand-logo.png" alt="Bitcoin" class="header__image">
+            </a>
+            <nav class="nav">
+                <ul class="nav__menu">
+                    <li class="nav__el" style="--order: 2">
+                        <a href="#" class="nav__enter nav__enter--selected">
+                            <i class="nav__icon icon icon--square"></i>
+                        </a>
+                    </li>
+                    <li class="nav__el" style="--order: 1">
+                        <a href="#" class="nav__enter">
+                            <i class="nav__icon icon icon--wallet"></i>
+                        </a>
+                    </li>
+                    <li class="nav__el" style="--order: 0">
+                        <a href="#" class="nav__enter">
+                            <i class="nav__icon icon icon--statistical"></i>
+                        </a>
+                    </li>
+                    <li class="nav__el" style="--order: -1">
+                        <a href="#" class="nav__enter">
+                            <i class="nav__icon icon icon--box"></i>
+                        </a>
+                    </li>
+                    <li class="nav__el" style="--order: -2">
+                        <a href="#" class="nav__enter">
+                            <i class="nav__icon icon icon--user"></i>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="logout">
+                <a href="#" class="logout__enter">
+                    <i class="icon icon--login"></i>
+                </a>
+            </div>
+        </header>
+        <section class="overview">
+            <div class="overview__header">
+                <h1 class="overview__title">Overview</h1>
+                <div class="overview__options">
+                    <a href="#" class="overview__option overview__search">
+                        <i class="icon icon--search"></i>
+                    </a>
+                    <a href="#" class="overview__option overview__notification">
+                        <i class="icon icon--bell"></i>
+                        <i class="overview__has-notification"></i>
+                    </a>
+                    <div class="overview__option overview__user">
+                        <img src="/img/img-user.png" alt="" class="overview__user-image">
+                        <span class="overview__user-name">
+                            Koala
+                            <i class="icon icon--down icon--sm"></i>
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="overview__content">
+                <article class="overview__portfolio overview__item">
+                    <div class="overview__item-head">
+                        <h2 class="overview__item-title">Portfolio</h2>
+                    </div>
+                    <div class="overview__item-content">
+                        <div class="card card--blue">
+                            <a href="#" class="card__menu">
+                                <i class="icon icon--menu icon--sm"></i>
+                            </a>
+                            <div class="card__title">$ 17 643.41</div>
+                            <div class="card__subtitle">Portfolio balance</div>
+                            <div class="graph">
+                                <svg class="graph__svg" width="484" height="116" viewBox="0 0 484 116" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path class="graph__line" d="M0.5 53.5H10L14.5 48.5L19.5 53.5H33.5C33.8333 50.1667 35.2 44.5 38 48.5C40.8 52.5 44.5 51.8333 46 51L53 42.5L64.5 45.5L80 42.5L89.5 34.5L101 38L110.5 31.5L118 38H133L142.5 34.5L148 26.5L169 31.5L178 26.5C175.167 30.5 172.1 38.1 182.5 36.5C192.9 34.9 194.833 32.5 194.5 31.5H206.5L214 26.5L222.5 31.5L237 36.5L240 31.5C241.833 32.5 246.2 33.9 249 31.5C251.8 29.1 258.5 25.8333 261.5 24.5C259 25.8333 256.4 28.1 266 26.5C278.8 30.5 283 28.1667 283.5 26.5L299 24.5L306 29.5L318.5 26.5C318 29.8333 319 35.5 327 31.5C335 27.5 334.333 25.1667 333 24.5L338.5 26.5C339.333 23.1667 341.7 17.5 344.5 21.5C349.7 23.9 362.667 22.5 368.5 21.5L375 15.5L388 9.5L392 3.5L396 114L410.5 107L413.5 110C414.333 106.667 416.5 101.4 418.5 107C420.5 112.6 423.667 114 425 114L424.5 105.5L427 53L440.5 45.5V53C442.5 51.5 447.3 49.4 450.5 53C453.7 56.6 457.5 57.5 459 57.5C459.5 57.1667 461.5 56.4 465.5 56C469.5 55.6 471.167 48.8333 471.5 45.5L477 39L483 33.5" stroke="#003C78" stroke-opacity="0.5" stroke-width="2"/>
+                                    <circle class="graph__point" cx="362.5" cy="21.5" r="6.5" fill="#68A5D6" stroke="#F8FEFF" stroke-width="2"/>
+                                </svg>
+                                <div class="graph__popup">
+                                    <span class="popup">$27 482.00</span>
+                                </div>
+                                <ul class="graph__temp">
+                                    <li class="graph__temp-item">1H</li>
+                                    <li class="graph__temp-item">24H</li>
+                                    <li class="graph__temp-item temp-item--selected">1W</li>
+                                    <li class="graph__temp-item">1M</li>
+                                    <li class="graph__temp-item">1Y</li>
+                                    <li class="graph__temp-item">ALL</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article class="overview__assets overview__item">
+                    <div class="overview__item-head">
+                        <h2 class="overview__item-title">Your Assets</h2>
+                        <a href="#" class="overview__item-opts">
+                            <i class="icon icon--filter"></i>
+                        </a>
+                    </div>
+                    <div class="overview__item-content overview__assets-content">
+                        <div class="card card--purple">
+                            <a href="#" class="card__menu">
+                                <i class="icon icon--menu icon--sm"></i>
+                            </a>
+                            <div class="card__title">1.25 BTC</div>
+                            <div class="card__subtitle">$ 2948.52</div>
+                            <img src="img/brand-asset.png" alt="Bitcoin" class="overview__item-image brand">
+                            <span class="overview__item-value">+ 0.14%</span>
+                        </div>
+                        <div class="card card--green">
+                            <a href="#" class="card__menu">
+                                <i class="icon icon--menu icon--sm"></i>
+                            </a>
+                            <div class="card__title">0.25 LTC</div>
+                            <div class="card__subtitle">$ 2948.52</div>
+                            <img src="img/brand-asset.png" alt="Bitcoin" class="overview__item-image brand">
+                            <span class="overview__item-value">- 0.34%</span>
+                        </div>
+                        <div class="card card--yellow">
+                            <a href="#" class="card__menu">
+                                <i class="icon icon--menu icon--sm"></i>
+                            </a>
+                            <div class="card__title">1.25 ETH</div>
+                            <div class="card__subtitle">$ 2948.52</div>
+                            <img src="img/brand-asset.png" alt="Bitcoin" class="overview__item-image brand">
+                            <span class="overview__item-value">+ 0.24%</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="overview__market overview__item">
+                    <div class="overview__item-head">
+                        <h2 class="overview__item-title overview__item-title--strong">Market is down 0.80%</h2>
+                        <div class="overview__item-opts">
+                            <select name="" id="" class="input">
+                                <option value="">24h</option>
+                            </select>
+                            <select name="" id="" class="input">
+                                <option value="">Top gainers</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="overview__item-content">
+                        <table class="table">
+                            <thead class="table__head">
+                                <tr class="table__row">
+                                    <th class="table__head-item">Name</th>
+                                    <th class="table__head-item">Price</th>
+                                    <th class="table__head-item">Chanee</th>
+                                    <th class="table__head-item">Market Cap</th>
+                                    <th class="table__head-item">Watch</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="table__row">
+                                    <td class="table__info-item">
+                                        <div class="table__info-market">
+                                            <img src="img/brand-table.png" alt="Band Protocol Logo" class="brand table__info-img">
+                                            <span class="table__info-name">Band Protocol</span>
+                                            <span class="table__info-subname">BAND</span>
+                                        </div>
+                                    </td>
+                                    <td class="table__info-item">$2.42</td>
+                                    <td class="table__info-item table__info-item--green">+13.28%</td>
+                                    <td class="table__info-item">$299.2M</td>
+                                    <td class="table__info-item">
+                                        <a href="#" class="table__info-icon">
+                                            <i class="icon icon--star"></i>
+                                        </a>
+                                    </td>
+                                </tr>
+                                <tr class="table__row">
+                                    <td class="table__info-item">
+                                        <div class="table__info-market">
+                                            <img src="img/brand-table.png" alt="VeChain Logo" class="brand table__info-img">
+                                            <strong class="table__info-name">VeChain</strong>
+                                            <span class="table__info-subname">VET</span>
+                                        </div>
+                                    </td>
+                                    <td class="table__info-item">$7.42</td>
+                                    <td class="table__info-item table__info-item--green">+11.28%</td>
+                                    <td class="table__info-item">$139.2M</td>
+                                    <td class="table__info-item">
+                                        <a href="#" class="table__info-icon">
+                                            <i class="icon icon--star"></i>
+                                        </a>
+                                    </td>
+                                </tr>
+                                <tr class="table__row">
+                                    <td class="table__info-item">
+                                        <div class="table__info-market">
+                                            <img src="img/brand-table.png" alt="VeChain Logo" class="brand table__info-img">
+                                            <strong class="table__info-name">Aave</strong>
+                                            <span class="table__info-subname">AAVE</span>
+                                        </div>
+                                    </td>
+                                    <td class="table__info-item">$0.0142</td>
+                                    <td class="table__info-item table__info-item--green">+7.28%</td>
+                                    <td class="table__info-item">$1.2B</td>
+                                    <td class="table__info-item">
+                                        <a href="#" class="table__info-icon">
+                                            <i class="icon icon--star"></i>
+                                        </a>
+                                    </td>
+                                </tr>
+                                <tr class="table__row">
+                                    <td class="table__info-item">
+                                        <div class="table__info-market">
+                                            <img src="img/brand-table.png" alt="VeChain Logo" class="brand table__info-img">
+                                            <strong class="table__info-name">Waves</strong>
+                                            <span class="table__info-subname">WAVES</span>
+                                        </div>
+                                    </td>
+                                    <td class="table__info-item">$30.42</td>
+                                    <td class="table__info-item table__info-item--green">+11.28%</td>
+                                    <td class="table__info-item">$329.2M</td>
+                                    <td class="table__info-item">
+                                        <a href="#" class="table__info-icon">
+                                            <i class="icon icon--star"></i>
+                                        </a>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </article>
+                <article class="overview__ads ads overview__item">
+                    <div class="card card--black ads__card">
+                        <h3 class="card__title ads__title">
+                            Earn 
+                            <div class="ads__free">
+                                <span class="ads__freetext">free</span>
+                            </div>
+                            crypto with Coinview Earn!
+                        </h3>
+                        <p class="card__subtitle">Learn about different cryptocurrencies and earn them for free!</p>
+                        <a href="#" class="button button--blue ads__button">Earn now</a>
+                        <i class="ads__decoration"></i>
+                    </div>
+                </article>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
