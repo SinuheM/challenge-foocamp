@@ -292,8 +292,8 @@ body {
 .overview__notification:hover .overview__has-notification {
   width: 10px;
   height: 10px;
-  top: 15px;
-  right: 15px;
+  top: 13px;
+  right: 13px;
 }
 
 .overview__notification:hover .icon--bell {
@@ -1065,8 +1065,9 @@ body {
   .overview__user {
     padding-left: 65px;
   }
-  .overview .overview__user {
-    padding-left: 55px;
+  .overview__notification:hover .overview__has-notification {
+    top: 15px;
+    right: 15px;
   }
   .overview__content {
     -ms-grid-rows: auto auto;

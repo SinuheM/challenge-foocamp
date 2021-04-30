@@ -237,7 +237,7 @@ body{
             .overview__has-notification{
                 width: 10px;
                 height: 10px;
-                top: 15px; right: 15px;
+                top: 13px; right: 13px;
             }
             .icon--bell{
                 transform-origin: top;
@@ -773,8 +773,12 @@ body{
         @at-root #{&}__user{
             padding-left: 65px;
         }
-        .overview__user{
-            padding-left: 55px;
+        @at-root #{&}__notification{
+            &:hover{
+                .overview__has-notification{
+                    top: 15px; right: 15px;
+                }
+            }
         }
         @at-root #{&}__content{
             grid-template-rows: auto auto;
